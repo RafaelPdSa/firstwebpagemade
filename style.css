@@ -9,10 +9,13 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;/*Align items centraliza os items no centro*/
     
 
 
 }
+
+
 a{
     color: white;
 }
@@ -26,34 +29,61 @@ body {
     color: white; /* Cor do texto */
 }
 
+
 .Conteudo-principal{/*div Pai ela controla a direção dos conteudos filhos*/
 
     display: flex;/*Display define que vai ser em linha seu conteudo*/
     justify-content: space-between;
+    text-align: center;
     
 
 }
 
 .Missão{
 
-    width: 400px;
-    height: 200px;
-    background-color: rgb(128, 128, 128,0.2);
+    width: 450px;
+    height: 250px;
+    background-color:   rgb(128, 128, 128,0.2);
+    border-radius: 50px;
     
 }
 
 .Visão{
 
-    width: 400px;
-    height: 200px;
-    background-color: rgb(128, 128, 128,0.2);
-
+    width: 450px;
+    height: 250px;
+    background-color:   rgb(128, 128, 128,0.2);
+    border-radius: 50px;
 }
 
 .Valores{
 
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     background-color:   rgb(128, 128, 128,0.2);
+    border-radius: 50px; /* pixels é uma escala de medição, border radius é uma propriedade do css, que deixa redondo os baguio*/
+
 /*Para deixar transparente usar rgb e adicionar um 4º numero selecionando a escala de transparencia.*/
+}
+
+.rodapeimg{
+
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+.icons{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.menu{
+
+    margin-right: 50px;
+
 }
