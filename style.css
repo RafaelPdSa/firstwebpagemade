@@ -26,10 +26,34 @@ body {
     color: white; /* Cor do texto */
 }
 
-.Conteudo-principal{
+.Conteudo-principal{/*div Pai ela controla a direção dos conteudos filhos*/
 
-    background-color: gray;
-    display: flex;
+    display: flex;/*Display define que vai ser em linha seu conteudo*/
+    justify-content: space-between;
     
 
+}
+
+.Missão{
+
+    width: 400px;
+    height: 200px;
+    background-color: rgb(128, 128, 128,0.2);
+    
+}
+
+.Visão{
+
+    width: 400px;
+    height: 200px;
+    background-color: rgb(128, 128, 128,0.2);
+
+}
+
+.Valores{
+
+    width: 400px;
+    height: 200px;
+    background-color:   rgb(128, 128, 128,0.2);
+/*Para deixar transparente usar rgb e adicionar um 4º numero selecionando a escala de transparencia.*/
 }
