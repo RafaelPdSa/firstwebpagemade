@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.header{
+
+   display: flex;
+   align-items: center;
+
+   
+  
+}
+
+.logo{
+
+    margin-left: 40px;
+   
+
+}
+
+.menu{
+    
+    margin: 48px;
+
+
+    color: white;
+    
+    
+}
+
+.login{
+
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+body{
+    background-image: url(deeppage.png);
+}
+
+
+
+.title{
+    margin-left: 100px;
+    color: white;
+
+}
+
+article{
+
+    display: flex;
+    
+    justify-content: center;
+    color: white;
+}
+
+.photo{
+    
+    background-color: rgb(30, 30, 31);
+    width: 360px;
+    height: 500px;
+}
+
+.photo1{
+    
+    position: relative;
+
+
+}
+
+.discrition {
+    position: absolute;
+    top: 90%; /* Ajuste a posição vertical do texto conforme necessário */
+    left: 50%; /* Ajuste a posição horizontal do texto conforme necessário */
+    transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
+    z-index: 1; /* Coloque o texto acima da imagem */
+    color: white; /* Defina a cor do texto */
+    font-size: 16px; /* Defina o tamanho da fonte */
+    font-family: Arial, sans-serif; /* Defina a fonte desejada */
+    background: rgba(63, 60, 60, 0.5); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
+    padding: 9px; /* Adicione preenchimento para melhorar a legibilidade */
+    width: 100%;
+    border-radius: 40px;
+    
+}   
+
+.discrition1{
+    position: absolute;
+    top: 88.8%; /* Ajuste a posição vertical do texto conforme necessário */
+    left: 50%; /* Ajuste a posição horizontal do texto conforme necessário */
+    transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
+    z-index: 1; /* Coloque o texto acima da imagem */
+    color: white; /* Defina a cor do texto */
+    font-size: 16px; /* Defina o tamanho da fonte */
+    font-family: Arial, sans-serif; /* Defina a fonte desejada */
+    background: rgba(63, 60, 60, 0.5); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
+    padding: 10px; /* Adicione preenchimento para melhorar a legibilidade */
+    width: 24%;
+    border-radius: 50px;
+}
+
+
+
+
+
+.discrition2{
+
+    position: absolute;
+    top: 88.8%; /* Ajuste a posição vertical do texto conforme necessário */
+    left: 74.4%; /* Ajuste a posição horizontal do texto conforme necessário */
+    transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
+    z-index: 1; /* Coloque o texto acima da imagem */
+    color: white; /* Defina a cor do texto */
+    font-size: 16px; /* Defina o tamanho da fonte */
+    font-family: Arial, sans-serif; /* Defina a fonte desejada */
+    background: rgba(63, 60, 60, 0.5); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
+    padding: 10px; /* Adicione preenchimento para melhorar a legibilidade */
+    width: 24%;
+    border-radius: 50px;
+
+}
