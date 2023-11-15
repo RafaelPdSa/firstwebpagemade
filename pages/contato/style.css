@@ -6,37 +6,39 @@
     
 }
 
+:root{
+    font-size: 1rem;
+}
+
 .header{
 
    display: flex;
+   justify-content:  center;
    align-items: center;
-
-   
-  
+ 
 }
 
 .logo{
 
-    margin-left: 40px;
+    margin-left: 2.5rem;
+    width: 3.25rem;
+    height: 3.25rem;
+
    
 
 }
 
 .menu{
     
-    margin: 48px;
-
-
+    list-style: none;
+    margin: 3rem;
     color: white;
+    display: flex;
+    
     
     
 }
 
-.login{
-
-    margin-right: 50px;
-    margin-left: 40px;
-}
 
 body{
     background-color: #141B2B;
@@ -61,8 +63,8 @@ article{
 .photo{
     
     background-color: rgb(30, 30, 31);
-    width: 360px;
-    height: 500px;
+    width: 560px;
+    height: 700px;
 }
 
 .photo1{
@@ -81,7 +83,7 @@ article{
     color: white; /* Defina a cor do texto */
     font-size: 16px; /* Defina o tamanho da fonte */
     font-family: Arial, sans-serif; /* Defina a fonte desejada */
-    background: rgba(63, 60, 60, 0.5); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
+    background: rgba(63, 60, 60, 0); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
     padding: 9px; /* Adicione preenchimento para melhorar a legibilidade */
     width: 100%;
     border-radius: 40px;
@@ -97,7 +99,7 @@ article{
     color: white; /* Defina a cor do texto */
     font-size: 16px; /* Defina o tamanho da fonte */
     font-family: Arial, sans-serif; /* Defina a fonte desejada */
-    background: rgba(63, 60, 60, 0.5); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
+    background: rgba(63, 60, 60, 0.0); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
     padding: 10px; /* Adicione preenchimento para melhorar a legibilidade */
     width: 24%;
     border-radius: 50px;
@@ -117,7 +119,7 @@ article{
     color: white; /* Defina a cor do texto */
     font-size: 16px; /* Defina o tamanho da fonte */
     font-family: Arial, sans-serif; /* Defina a fonte desejada */
-    background: rgba(63, 60, 60, 0.5); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
+    background: rgba(63, 60, 60, 0); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
     padding: 10px; /* Adicione preenchimento para melhorar a legibilidade */
     width: 24%;
     border-radius: 50px;

@@ -10,11 +10,25 @@
     display: flex;
     justify-content: center;
     align-items: center;/*Align items centraliza os items no centro*/
-    
+    margin-top: 2rem;
 
 
 }
 
+h3{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 10px
+    ;
+}
+
+.logotipo{
+    margin-right: 20px;
+}
+
+#cor li:nth-child(2) a{
+    color: #f45309;
+}
 
 .menu{
 
@@ -25,18 +39,24 @@
     
 }
 
+ul{
+    list-style: none;/*List style none, usado para retirar o ponto da lista de menu*/
+    display: flex;
+}
 
 .espaçamento{
 
     margin-left: 100px;
-
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .espaçamento1{
     
-    margin: 50px;
-    margin-left: 100px;
-    
+    margin: 0.5rem;
+    margin-left: 6.25rem;
+    font-size: 1.625rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -53,49 +73,65 @@ body {
 .Conteudo-principal{/*div Pai ela controla a direção dos conteudos filhos*/
 
     display: flex;/*Display define que vai ser em linha seu conteudo*/
-    justify-content: space-around;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
     
-    
-    
-
 }
 
 .Missão{
 
-    width: 450px;
-    height: 250px;
-    background-color:   rgb(128, 128, 128,0.2);
+    width: 300px;
+    height: 290px;
+    background-color:   rgb(128, 128, 128,0.4);
     border-radius: 50px;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.mission{
+    gap: 1rem;
+    display: flex;
+    margin-left: 3.5rem;
+    
     
 }
 
 .Visão{
 
-    width: 450px;
-    height: 250px;
-    background-color:   rgb(128, 128, 128,0.2);
+    width: 300px;
+    height: 290px;
+    background-color:   rgb(128, 128, 128,0.4);
     border-radius: 50px;
+    font-size: 1rem;
+    margin: 1rem;
 }
 
 .Valores{
-
-    display: block;
-    justify-content: space-around;
-    top: 50px;
-    width: 450px;
-    height: 250px;
-    background-color:   rgb(128, 128, 128,0.2);
-    border-radius: 50px; /* pixels é uma escala de medição, border radius é uma propriedade do css, que deixa redondo os baguio*/
-
+    width: 300px;
+    height: 290px;
+    background-color:   rgb(128, 128, 128,0.4);
+    border-radius: 50px;
+    font-size: 1rem;
+    margin: 1rem;
+                /* pixels é uma escala de medição, border radius é uma propriedade do css, que deixa redondo os baguio*/
 /*Para deixar transparente usar rgb e adicionar um 4º numero selecionando a escala de transparencia.*/
 }
 
+.text{
+    margin: 0.1rem;
+    font-size: 1rem;
+    margin: 50px;
+    text-align: justify;
+    padding-bottom: 10px;
+
+    
+}
 
 .rodapeimg{
 
-    width: 50px;
-    height: 50px;
+    width: 27px;
+    height: 27px;
     
 
 }
@@ -104,6 +140,7 @@ body {
 
     display: flex;
     justify-content: center;
-    margin: 10px;
+    padding-top: 5rem;
+    gap: 0.5rem;
 
 }
