@@ -6,39 +6,52 @@
     
 }
 
-:root{
-    font-size: 1rem;
-}
-
 .header{
 
    display: flex;
    justify-content:  center;
    align-items: center;
- 
+   margin-top: 1rem;
+   margin-left: 0.90rem;
+
+}
+
+
+
+h3{
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 .logo{
 
-    margin-left: 2.5rem;
-    width: 3.25rem;
-    height: 3.25rem;
-
-   
-
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 3.43rem;
+    height: 3.43rem;
 }
+
+#cor li:nth-child(6) a{
+    color: #f45309;
+}
+
 
 .menu{
+
     
-    list-style: none;
-    margin: 3rem;
+    margin: 50px;
     color: white;
-    display: flex;
-    
     
     
 }
 
+
+ul{
+    list-style: none;/*List style none, usado para retirar o ponto da lista de menu*/
+    display: flex;
+}
 
 body{
     background-color: #141B2B;
@@ -77,27 +90,27 @@ article{
 .discrition {
     position: absolute;
     top: 90%; /* Ajuste a posição vertical do texto conforme necessário */
-    left: 50%; /* Ajuste a posição horizontal do texto conforme necessário */
+    left: 60%; /* Ajuste a posição horizontal do texto conforme necessário */
     transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
-    font-size: 16px; /* Defina o tamanho da fonte */
+    font-size: 25px; /* Defina o tamanho da fonte */
     font-family: Arial, sans-serif; /* Defina a fonte desejada */
     background: rgba(63, 60, 60, 0); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
     padding: 9px; /* Adicione preenchimento para melhorar a legibilidade */
-    width: 100%;
+    width: 80%;
     border-radius: 40px;
     
 }   
 
 .discrition1{
     position: absolute;
-    top: 88.8%; /* Ajuste a posição vertical do texto conforme necessário */
+    top: 114%; /* Ajuste a posição vertical do texto conforme necessário */
     left: 50%; /* Ajuste a posição horizontal do texto conforme necessário */
     transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
-    font-size: 16px; /* Defina o tamanho da fonte */
+    font-size: 25px; /* Defina o tamanho da fonte */
     font-family: Arial, sans-serif; /* Defina a fonte desejada */
     background: rgba(63, 60, 60, 0.0); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
     padding: 10px; /* Adicione preenchimento para melhorar a legibilidade */
@@ -112,16 +125,22 @@ article{
 .discrition2{
 
     position: absolute;
-    top: 88.8%; /* Ajuste a posição vertical do texto conforme necessário */
-    left: 74.4%; /* Ajuste a posição horizontal do texto conforme necessário */
+    top: 115%; /* Ajuste a posição vertical do texto conforme necessário */
+    left: 85.4%; /* Ajuste a posição horizontal do texto conforme necessário */
     transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
-    font-size: 16px; /* Defina o tamanho da fonte */
+    font-size: 25px; /* Defina o tamanho da fonte */
     font-family: Arial, sans-serif; /* Defina a fonte desejada */
     background: rgba(63, 60, 60, 0); /* Adicione um fundo semitransparente ao texto, para torná-lo legível */
     padding: 10px; /* Adicione preenchimento para melhorar a legibilidade */
     width: 24%;
     border-radius: 50px;
 
+}
+
+.linked{
+    width: 80px;
+    height: 80px;
+    color: rgb(127, 116, 116, 0);
 }

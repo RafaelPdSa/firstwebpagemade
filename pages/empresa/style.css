@@ -10,20 +10,22 @@
     display: flex;
     justify-content: center;
     align-items: center;/*Align items centraliza os items no centro*/
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 
 }
 
 h3{
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 20px;
-    margin-right: 10px
-    ;
+    margin-right: 10px;
 }
 
 .logotipo{
     margin-right: 20px;
+    margin-bottom: 10px;
+    width: 3.43rem;
+    height: 3.43rem;
 }
 
 #cor li:nth-child(2) a{
@@ -33,7 +35,7 @@ h3{
 .menu{
 
     
-    margin: 55px;
+    margin: 50px;
     color: white;
     
     
@@ -119,13 +121,10 @@ body {
 }
 
 .text{
-    margin: 0.1rem;
+    margin: 1rem;
     font-size: 1rem;
-    margin: 50px;
     text-align: justify;
     padding-bottom: 10px;
-
-    
 }
 
 .rodapeimg{
