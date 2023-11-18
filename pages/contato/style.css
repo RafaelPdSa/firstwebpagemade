@@ -12,7 +12,7 @@
    justify-content:  center;
    align-items: center;
    margin-top: 1rem;
-   margin-left: 0.90rem;
+   margin-left: 0.9rem;
 
 }
 
@@ -76,8 +76,8 @@ article{
 .photo{
     
     background-color: rgb(30, 30, 31);
-    width: 560px;
-    height: 700px;
+    width: 515px;
+    height: 655px;
 }
 
 .photo1{
@@ -89,9 +89,9 @@ article{
 
 .discrition {
     position: absolute;
-    top: 90%; /* Ajuste a posição vertical do texto conforme necessário */
+    top: 86%; /* Ajuste a posição vertical do texto conforme necessário */
     left: 60%; /* Ajuste a posição horizontal do texto conforme necessário */
-    transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
+    transform: translate(-52%, -50%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
     font-size: 25px; /* Defina o tamanho da fonte */
@@ -105,9 +105,9 @@ article{
 
 .discrition1{
     position: absolute;
-    top: 114%; /* Ajuste a posição vertical do texto conforme necessário */
+    top: 95%; /* Ajuste a posição vertical do texto conforme necessário */
     left: 50%; /* Ajuste a posição horizontal do texto conforme necessário */
-    transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
+    transform: translate(-40%, -49%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
     font-size: 25px; /* Defina o tamanho da fonte */
@@ -125,9 +125,9 @@ article{
 .discrition2{
 
     position: absolute;
-    top: 115%; /* Ajuste a posição vertical do texto conforme necessário */
+    top: 97%; /* Ajuste a posição vertical do texto conforme necessário */
     left: 85.4%; /* Ajuste a posição horizontal do texto conforme necessário */
-    transform: translate(-50%, -50%); /* Centralize o texto no contêiner */
+    transform: translate(-56%, -50%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
     font-size: 25px; /* Defina o tamanho da fonte */
@@ -140,7 +140,34 @@ article{
 }
 
 .linked{
-    width: 80px;
-    height: 80px;
-    color: rgb(127, 116, 116, 0);
+        position: absolute;
+        top: 89%;
+        left: 1%;
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        background-color: rgb(252, 249, 249);
+}
+
+.linked2{
+    position: absolute;
+    top: 89%;
+    left: 36%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    background-color: rgb(252, 249, 249);
+}
+
+.linked3{
+    position: absolute;
+    top: 89%;
+    left: 66%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    background-color: rgb(252, 249, 249);
 }
