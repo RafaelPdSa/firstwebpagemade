@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;/*Align items centraliza os items no centro*/
     margin-top: 1rem;
+    flex-wrap: wrap; /* Permite que os elementos dentro do header quebrem para a próxima linha em telas menores */
 
 
 }
@@ -18,7 +19,7 @@
 h3{
     font-size: 1rem;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .logotipo{
@@ -35,8 +36,9 @@ h3{
 .menu{
 
     
-    margin: 50px;
+    margin: 3.125rem;
     color: white;
+    
     
     
 }
@@ -48,15 +50,49 @@ ul{
 
 .espaçamento{
 
-    margin-left: 100px;
-    font-size: 50px;
+    margin-left: 7.2%; /* Use porcentagem em vez de pixels para a margem esquerda */
+    font-size: 3rem; /* Use unidades relativas para o tamanho da fonte */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column; /* Muda para uma disposição de coluna em telas menores */
+    }
+
+    .logotipo {
+        margin-right: 0; /* Remove a margem direita em telas menores */
+    }
+
+    .menu {
+        margin: 0.5rem;
+    }
+
+    .espaçamento {
+        margin-left: 2%; /* Ajusta a margem esquerda para telas menores */
+        font-size: 2rem; /* Ajusta o tamanho da fonte para telas menores */
+    }
+
+    .Conteudo-principal {
+        flex-direction: column;
+    }
+}
+
+.logotipo {
+    max-width: 100%; /* Faz com que a imagem do logotipo não ultrapasse a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.rodapeimg {
+    max-width: 100%; /* Torna as imagens do rodapé responsivas */
+    height: auto;
+}
+
 
 .espaçamento1{
     
     margin: 0.5rem;
-    margin-left: 6.25rem;
+    margin-left: 8rem;
     font-size: 1.625rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -69,6 +105,7 @@ body {
     background-position: center; /* Posiciona a imagem no centro do fundo */
     /* Adicione outras propriedades conforme necessário */
     color: white; /* Cor do texto */
+    font-size: 16px;
 }
 
 

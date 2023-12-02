@@ -47,6 +47,21 @@ h3{
     
 }
 
+@media screen and (max-width: 600px){
+
+    .header {
+        flex-direction: column;
+        
+    }
+
+    .menu {
+        margin: 0.5rem
+    }
+
+    
+    
+}
+
 
 ul{
     list-style: none;/*List style none, usado para retirar o ponto da lista de menu*/
