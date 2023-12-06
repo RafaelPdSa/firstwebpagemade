@@ -12,7 +12,7 @@
    justify-content:  center;
    align-items: center;
    margin-top: 1rem;
-   
+   flex-wrap: wrap;
 
 }
 
@@ -41,7 +41,7 @@ h3{
 .menu{
 
     
-    margin: 50px;
+    margin: 3.125rem;
     color: white;
     
     

@@ -51,6 +51,7 @@ ul{
 .espaçamento{
 
     margin-left: 6.8%; /* Use porcentagem em vez de pixels para a margem esquerda */
+    padding: 0.25rem;
     font-size: 3rem; /* Use unidades relativas para o tamanho da fonte */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -130,10 +131,9 @@ body {
 
 .mission{
     gap: 1rem;
-    display: flex;
-    margin-left: 3.5rem;
-    
-    
+    margin: 1.5rem;
+    padding-left: 1rem;
+
 }
 
 .Visão{
