@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
+    <title>formulario</title>
+</head>
+<body>
+    <div><a href="/pages/empresa/empresa.html">Pagina Principal</a></div>
+    <h1>Cadastre-se</h1>
+    <form method="post" id="form">
+
+        <label for="name" >*Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Astolfo Silva">
+        <p id="name-helper" class="helper-text">Mensagem de ajuda</p>
+
+        <label for="Email">*Email:</label>
+        <input type="email" name="Email" id="email" placeholder="seuemail@gmail.com">
+        <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="(00) 0-0000-0000" >
+        <p id="tel-helper" class="helper-text">Mensagem de ajuda</p>
+
+        <label for="password">*Senha:</label>
+        <input type="password" name="password" id="password" placeholder="*********">
+        <p id="password-helper" class="helper-text">Mensagem de ajuda</p>
+
+        <label for="password">*Confirme a senha:</label>
+        <input type="password" name="password" id="cpassword" placeholder="*********">
+        <p id="confirma-senha-helper" class="helper-text">Mensagem de ajuda</p>
+        
+
+        <button id="btnsub" type="submit"><a href="/pages/empresa/empresa.html">Enviar</a></button>
+    </form>
+</body>
+</html>

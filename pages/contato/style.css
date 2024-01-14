@@ -16,6 +16,16 @@
 
 }
 
+.posicao a{
+    
+    border-radius: 1rem;
+    background-color: #296391;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    margin-bottom: 1.3rem;
+    border-style: solid;
+    color: white;
+}
 
 
 h3{
