@@ -133,7 +133,7 @@ article{
     position: absolute;
     top: 104%; /* Ajuste a posição vertical do texto conforme necessário */
     left: 50%; /* Ajuste a posição horizontal do texto conforme necessário */
-    transform: translate(-40%, -49%); /* Centralize o texto no contêiner */
+    transform: translate(-40%, -21%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
     font-size: 25px; /* Defina o tamanho da fonte */
@@ -154,7 +154,7 @@ article{
     position: absolute;
     top: 105%; /* Ajuste a posição vertical do texto conforme necessário */
     left: 85.4%; /* Ajuste a posição horizontal do texto conforme necessário */
-    transform: translate(-56%, -50%); /* Centralize o texto no contêiner */
+    transform: translate(-55%, -20%); /* Centralize o texto no contêiner */
     z-index: 1; /* Coloque o texto acima da imagem */
     color: white; /* Defina a cor do texto */
     font-size: 25px; /* Defina o tamanho da fonte */
@@ -181,7 +181,7 @@ article{
 .linked2{
     position: absolute;
     top: 89%;
-    left: 36%;
+    left: 35%;
     width: 60px;
     height: 60px;
     object-fit: cover;
@@ -193,7 +193,7 @@ article{
 .linked3{
     position: absolute;
     top: 89%;
-    left: 66%;
+    left: 68%;
     width: 60px;
     height: 60px;
     object-fit: cover;

@@ -35,6 +35,7 @@ inputName.addEventListener("change", (e)=>{
         inputName.classList.remove("error")
         textName.classList.remove("visible")
         inputName.classList.add("correct")
+        return false;
     }
     
 })
@@ -52,12 +53,14 @@ inputEmail.addEventListener("change",(event)=>{
         inputEmail.classList.remove("error")
         textEmail.classList.remove('visible')        
         inputEmail.classList.add("correct")
+        return false;
     } else {
         //Estilização se o email for invalido.
         inputEmail.classList.remove("correct")
         inputEmail.classList.add('error')
         textEmail.classList.add('visible')
         textEmail.innerText = "Email inválido."
+        return false;
     }
 })
 
@@ -77,6 +80,7 @@ inputPassword.addEventListener("change",(e) =>{
         inputPassword.classList.remove("error");
         inputPassword.classList.add("correct");
         textPassword.classList.remove('visible');
+        return false;
         
     } else{
         // Estilos dinâmicos caso o valor seja inválidado
@@ -84,7 +88,7 @@ inputPassword.addEventListener("change",(e) =>{
         inputPassword.classList.add("error")
         textPassword.innerText = "Senha inválida"
         textPassword.classList.add("visible")
-        
+        return false;
     }
 })
  
@@ -105,13 +109,15 @@ inputConfsenha.addEventListener('change', (e) =>{
         inputConfsenha.classList.remove("error");
         inputConfsenha.classList.add("correct");
         textConfsenha.classList.remove('visible');
+        return false;
         
     } else{
         // Estilos dinâmicos caso o valor seja inválidado
         inputConfsenha.classList.remove('correct');
-        inputConfsenha.classList.add("error")
+        inputConfsenha.classList.add("error");
         textConfsenha.innerText = "Senha inválida"
-        textConfsenha.classList.add("visible")
+        textConfsenha.classList.add("visible");
+        return false;
         
     }
 

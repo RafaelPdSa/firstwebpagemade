@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Login</title>
+
+   <!--
+   /<style>
+      body {
+        background-image: url(/assets/img/fundo-paginas.png);
+      }
+    </style> 
+  -->
+
+<header class="header">
+            
+  <img src="/assets/img/logoSimple.png"
+    alt="logo bussula.tech"
+    width="110"
+    height="100"
+    />
+    <img src="/assets/img/login.png" 
+    alt="login" 
+    width="140" 
+    height="100" />
+  <nav><!--nav é o menu de navegação semantico, que é uma tag especifica.-->
+      <a class="menu" href= "/index.html" target="_blank">Home</a>
+      <a class="menu" href="/pages/empresa.html">Empresa</a>
+      <a class="menu" href="/pages/trilha.html">Trilha</a>
+      <a class="menu" href="/pages/artigo.html" target="_blank">Artigo</a>
+      <a class="menu" href="/pages/comunidde.html">Empresa</a>
+      <a class="menu" href="/pages/contato.html">Trilha</a>
+    </nav>
+
+</head>
+<body>
+    <h1>Entre com seus dados:</h1>
+    <form action="processar_login.php" method="post">
+        <label for="email">Seu e-mail:</label>
+        <input type="email" id="email" name="email" required>        
+        <label for="senha">Senha de acesso:</label>
+        <input type="password" id="senha" name="senha" required>        
+        <input type="submit" value="Entrar">
+    </form>
+    
+    <em>Ainda não tem cadastor?</em> <a href="cadastro.html">CADASTRAR</a>
+     <!-- <P>Ainda não tem cadastor?</P> 
+    <a href="cadastro.html">CADASTRAR</a> -->
+    <br>
+    <span>Esqueceu a senha?</span> <a href="">RECUPERAR</a> 
+
+</body>
+</html>

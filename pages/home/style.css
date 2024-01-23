@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(/pages/home/img_fundo.png)center/cover fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;/*Align items centraliza os items no centro*/
+    margin-top: 1rem;
+    flex-wrap: wrap; /* Permite que os elementos dentro do header quebrem para a próxima linha em telas menores */
+
+
+}
+
+
+
+
+.logotipo{
+    
+    display: flex;
+    width: 223px;
+    height: 116px;
+}
+
+#cor li:nth-child(1) a{
+    color: #f45309;
+}
+
+
+
+.menu{
+
+    justify-content: center;
+    margin: 3.125rem;
+    color: white;
+    list-style-type: none;
+    
+    
+}
+
+
+
+.posicao a{
+    
+    border-radius: 1rem;
+    background-color: #296391;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    margin-bottom: 1.3rem;
+    border-style: solid;
+    color: white;
+}
+
+ul{
+    list-style: none;/*List style none, usado para retirar o ponto da lista de menu*/
+    display: flex;
+}
+
